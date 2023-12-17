@@ -1,1 +1,2 @@
 # prac-io-2
+В данной задаче я построил полином с помощью функции `numpy.polyfit(x, y, deg, rcond=None, full=False, w=None, cov=False)`, с помощью которой я построил полиномы первой, второй и третьей степени по обучающим данным "training.csv" и отобразил их продолжение на графике. Затем с помощью функции `sklearn.metrics.r2_score(y_true, y_pred, *, sample_weight=None, multioutput='uniform_average', force_finite=True)` проверил данные, полученные с помощью полиномиальной регрессии с настоящими.
